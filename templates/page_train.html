@@ -64,13 +64,13 @@
     </thead>
 
     <tbody>
-    {% for data in datas %}
+    {% for t in train %}
     <tr>
         <th scope="row">1</th>
-        <td>{{ data.train }}</td>
-        <td>{{ data.departure }}</td>
-        <td>{{ data.arrival }}</td>
-        <td>{{ data.halt }}</td>
+        <td>{{ t.train }}</td>
+        <td>{{ t.departure }}</td>
+        <td>{{ t.arrival }}</td>
+        <td>{{ t.halt }}</td>
 
     </tr>
     {% endfor %}
